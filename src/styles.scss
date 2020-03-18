@@ -2,7 +2,7 @@ html, body, #root {
   height: 100%;
 }
 body {
-  background: #333;
+  background: darkslategray;
   margin: 0;
   display: grid;
   padding: 3em;
@@ -17,7 +17,7 @@ body {
 .box {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 4%;
   h1 {
     font-size: 20px;
     margin: 0 0 1rem 0;
@@ -35,15 +35,15 @@ body {
   }
 }
 .button {
-  background: hotpink;
+  background: rgb(22, 144, 201);
   border: 1px solid transparent;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-right: 1em;
   padding: .25em .75em;
   transition: all .25s ease-in;
   &:hover {
     background: white;
-    border: 1px solid hotpink;
+    border: 1px solid rgb(22, 144, 201);
     color: #333;
   }
 }
